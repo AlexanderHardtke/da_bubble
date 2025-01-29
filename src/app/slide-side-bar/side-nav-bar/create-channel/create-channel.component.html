@@ -60,7 +60,7 @@
                 @if (select === user.id) {
 
                 @if ($index < 2) {
-                    <p><img src=".{{user.userImage}}"><p>{{user.name}}</p><span (click)="selectUser(user.id)">+</span></p>
+                    <p><img src="{{user.userImage}}"><p>{{user.name}}</p><span (click)="selectUser(user.id)">+</span></p>
                     }
                     @if ($index === 2) {
                     <p class="click" (click)="dropdownActive = true">+ {{ selectedUserId.length - 2 }} Users</p>
@@ -77,7 +77,7 @@
                 @if (user.id !== userService.loggedUserId && searchIds.includes(user.id)) {
                 <div (click)="selectUser(user.id)" [class.active]="isSelected(user.id)" class="users">
                     <div>
-                        <img src=".{{user.userImage}}">
+                        <img src="{{user.userImage}}">
                         <span
                             [ngStyle]="{'background-color': user.status === 'online' ? onlineColor : offlineColor}"></span>
                     </div>

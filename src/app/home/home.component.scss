@@ -8,7 +8,6 @@
     padding: 20px;
     font-family: nunito;
     box-sizing: border-box;
-    margin: auto;
 }
 
 .channel-container {
@@ -88,5 +87,6 @@ app-slide-side-bar {
     .home-container {
         max-width: 1920px;
         justify-self: center;
+        margin: auto;
     }
 }
