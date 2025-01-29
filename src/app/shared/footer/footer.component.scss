@@ -24,6 +24,12 @@ section {
   }
 }
 
+@media (min-width: 1921px) {
+  section {
+    padding-top: 70px;
+  }
+}
+
 @media (max-width: 768px) {
   section {
     position: unset;

@@ -46,7 +46,7 @@ export class PasswordResetSendMailComponent {
   regexp = new RegExp(/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/);
 
   post = {
-    endPoint: 'https://dabubble.lars-schumacher.com/send-reset-link.php',
+    endPoint: 'https://dabubble.alexander-hardtke.com/send-reset-link.php',
     body: (payload: any) => JSON.stringify(payload),
     options: {
       headers: {
