@@ -212,6 +212,8 @@ h2 {
 
 @media screen and (max-width: 768px) {
     section {
+        z-index: 10;
+        position: relative;
         border-radius: 30px;
         max-width: 500px;
         width: calc(100vw - 20px);
